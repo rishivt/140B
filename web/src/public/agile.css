@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #07f;
+    --accent-color: rgba(231, 109, 90, 1);
+    --accent-color-dark: rgba(226, 77, 54, 1);
+    --accent-color: rgba(89, 110, 166, 1);
+    --accent-color-dark: rgba(71, 88, 133, 1);
+    --dark-color: rgba(70, 120, 125, 1);
+    --dark-color-alt: rgba(156, 160, 165, 1);
+    --medium-color: #bbb;
+    --light-color: #eee;
+    --page-color: #F5F5DC;
+    --soft-color: rgba(221, 214, 212, 1);
+    --margin-xxl: 3rem;
+    --margin-xl: 2rem;
+    --margin-lg: 1rem;
+    --margin-med: 0.66rem;
+    --margin-sm: 0.33rem;
+    --base-font-size: 16pt;
+    --border-radius: 6px;
+    --rounded-radius: 4rem;
+    --padding-xxl: 2rem;
+    --padding-xl: 1.4rem;
+    --padding-lg: 1rem;
+    --padding-med: 0.66rem
+    --padding-sm: 0.33rem;
+    --font: Courier New;
+  }
+  body {
+    font-size: calc(1rem + 1vw);
+    background: var(--page-color);
+    margin: 0px;
+    font-family: var(--font);
+  }
+  p, ol li, ul li {
+    font-size: calc(0.8rem + 1vw);
+  }
+  
+  .hero {
+    background: var(--dark-color);
+    color: #FFF;
+    border: 2px solid red;
+    
+    padding: calc(1rem + 8vh) calc(1rem + 3vw) calc(3rem + 10vh) calc(1rem + 3vw);
+  }
+  .hero h1 {
+    text-align: center;
+    font-size: calc(1rem + 5vw);
+    background: none;
+    margin: 0px;
+  }
+  .hero p {
+    margin: 0px 1.5rem;
+    color: #bbc;
+  }
+  
+  h4 {
+    font-size: calc(1rem + 1.5vw);
+  }
+  h2, h3, h4, h5, h6, .card {
+    padding: var(--padding-lg);
+    margin: var(--margin-med) auto;
+    width: 100%;
+  }
+  
+  p {
+    margin: 0px 1.5rem;
+    color: ;
+  }
+  
+  .team {
+    background: var(--dark-color); 
+    color: #FFF;
+    border: 2px solid red;
+    padding: 1rem;
+  }
+  .team h6{
+    text-align: center;
+    color: #FFF;
+    font-size: calc(1rem + 1.5vw);
+    padding: var(--padding-lg);
+    margin: var(--margin-med) auto;
+    width: 100%;
+  }
+  .team ul {
+    color: #FFF;
+    list-style-type: none;
+  }
+  
+  .team ul li {
+    position: relative;
+    font: bold 30px/1.5 Courier New;
+    margin-bottom: 20px;
+  }
+  
+  .team li p {
+    font: 24px/1.5 Courier New;
+    padding-left: 60px;
+    color: #bbc;
+  }
+  
+  .team span {
+    position: absolute;
+  }
+  
+  hr {
+      display: block;
+      height: 3px;
+      border: 0;
+      border-top: 4px solid #ccc;
+      margin: 1em 0;
+      padding: 0;
+  }
