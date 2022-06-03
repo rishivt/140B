@@ -5,6 +5,7 @@
   --accent-color: rgba(89, 110, 166, 1);
   --accent-color-dark: rgba(71, 88, 133, 1);
   --dark-color: rgba(70, 129, 125, 1);
+  --dark-color: black;
   --dark-color-alt: rgba(156, 160, 165, 1);
   --medium-color: #bbb;
   --light-color: #eee;
@@ -53,7 +54,7 @@ p, ol li, ul li {
     flex: 3;
   }
   .main-nav li {
-    background: var(--dark-color);
+    background: white;
     margin-right: 1em;
     /*border: 2px solid black; */
   }
@@ -79,7 +80,7 @@ button.barlist{
 }
 button.barlist:hover {
     color: #001F3F;
-    background-color: #fff;
+    background-color: green;
 }
   button.go {
     background: white;
@@ -97,6 +98,7 @@ button.barlist:hover {
     transform: translate(-50%,-50%);
     left: 50%;
     top: 80%;
+    border: 3px solid green;
     border-radius: 3px;
     font-family: Courier New;
     text-align: center;
@@ -136,11 +138,25 @@ button.barlist:hover {
      margin-bottom: 1em;
    }
   }
+.logo { 
+  text-align:center;
+  
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo img {
+  display:inline-block;
+  
+} 
 .hero {
   background: var(--dark-color);
-  background: #36454f;
+  
   color: #FFF;
-  border: 2px solid red;
+  border: 2px solid green;
   
   padding: calc(1rem + 8vh) calc(1rem + 3vw) calc(3rem + 10vh) calc(1rem + 3vw);
 }
@@ -168,6 +184,7 @@ h2, h3, h4, h5, h6 {
 .highlight{
   color: white;
   background: #5F9EA0;
+  background: green;
   text-align: center;
   font-size: calc(1rem + 1vw);
   
@@ -192,13 +209,14 @@ p {
 .KVP {
   background: var(--dark-color); 
   color: #FFF;
-  border: 2px solid red;
+  color: white;
+  border: 2px solid green;
   padding: 1rem;
 }
 .KVPblack {
   background: #36454f; 
   color: #FFF;
-  border: 2px solid red;
+  border: 2px solid green;
   padding: 1rem;
 }
 .KVP p {
@@ -212,7 +230,7 @@ p {
   text-align: right;
 }
 .KVP h6{
-  
+  color: white;
   text-align: center;
   font-size: calc(1rem + 2vw);
   padding: var(--padding-lg);
@@ -289,7 +307,7 @@ p {
 .team {
   background: var(--dark-color); 
   color: #FFF;
-  border: 2px solid red;
+  border: 2px solid green;
   padding: 1rem;
 }
 .teamblack {
